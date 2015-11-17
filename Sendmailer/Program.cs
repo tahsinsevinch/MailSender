@@ -27,7 +27,7 @@ namespace Sendmailer
                     }
                 }
                 string htmlText = sb.ToString();
-                mailser.SendMail(new cMAIL() { BASLIK = "title", ICERIK = htmlText, GONDERILECEK_ADRESLER = new List<string> { "tahsin.sevinc@plasenta.com.tr" } });
+                mailser.SendMail(new cMAIL() { BASLIK = "title", ICERIK = htmlText, GONDERILECEK_ADRESLER = new List<string> { "tahsinsevinc@google.com" } });
 
             }
             catch
